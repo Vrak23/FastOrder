@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="fastOrderGrad512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c"/>
+      <stop offset="50%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="shadow512" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#fastOrderGrad512)"/>
+  <rect x="20" y="20" width="472" height="472" rx="96" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="6"/>
+  
+  <!-- FastOrder Graphics -->
+  <g filter="url(#shadow512)" transform="translate(64, 50)">
+    <!-- Burger Top Bun -->
+    <path d="M30 150 Q192 40 354 150 L334 170 Q192 130 50 170 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="8"/>
+    <!-- Sesame Seeds -->
+    <circle cx="130" cy="115" r="8" fill="#ffffff"/>
+    <circle cx="192" cy="98" r="9" fill="#ffffff"/>
+    <circle cx="254" cy="118" r="8" fill="#ffffff"/>
+    <circle cx="160" cy="140" r="7" fill="#ffffff"/>
+    <circle cx="225" cy="140" r="7" fill="#ffffff"/>
+    
+    <!-- Lettuce Wave -->
+    <path d="M40 175 Q75 200 110 175 Q145 200 180 175 Q215 200 250 175 Q285 200 320 175 Q355 200 360 175 L350 198 Q315 220 280 198 Q245 220 210 198 Q175 220 140 198 Q105 220 70 198 L40 198 Z" fill="#22c55e"/>
+    
+    <!-- Meat Patty -->
+    <rect x="45" y="210" width="294" height="42" rx="21" fill="#78350f" stroke="#451a03" stroke-width="6"/>
+    
+    <!-- Melted Cheddar Cheese -->
+    <polygon points="65,230 320,230 295,265 225,285 160,250 100,275" fill="#facc15"/>
+    
+    <!-- Burger Bottom Bun -->
+    <path d="M55 270 L329 270 Q329 320 192 320 Q55 320 55 270 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="8"/>
+    
+    <!-- Lightning Fast Speed Indicator -->
+    <path d="M275 45 L205 160 L260 160 L218 260 L345 130 L285 130 Z" fill="#38bdf8" stroke="#0284c7" stroke-width="5" opacity="0.95"/>
+  </g>
+  
+  <!-- Text Label -->
+  <text x="256" y="460" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="3">FASTORDER</text>
+</svg>

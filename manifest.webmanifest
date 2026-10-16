@@ -1,0 +1,49 @@
+{
+  "name": "FastOrder S.A. - Pedidos de Restaurante",
+  "short_name": "FastOrder",
+  "description": "Aplicación Web Progresiva para la gestión ágil de pedidos en restaurante con soporte Offline-First y Notificaciones Push.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#e11d48",
+  "categories": ["food", "restaurant", "productivity", "shopping"],
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Menú y Ofertas",
+      "short_name": "Menú",
+      "description": "Explora el menú completo de FastOrder",
+      "url": "./index.html#menu",
+      "icons": [{ "src": "icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mi Carrito de Pedidos",
+      "short_name": "Carrito",
+      "description": "Revisa los productos seleccionados",
+      "url": "./index.html#cart",
+      "icons": [{ "src": "icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Monitor de Cocina KDS",
+      "short_name": "Cocina",
+      "description": "Panel de control para despachos en cocina",
+      "url": "./index.html#kitchen",
+      "icons": [{ "src": "icons/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
